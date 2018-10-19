@@ -1,0 +1,27 @@
+@keyframes color-move{
+	.9%{background-color: #595353;left:-5px;}
+	0% {background-color: #d3d4cc;left:0px}
+	10%{background-color: #965454;left:10%;}
+	20%{background-color: #a27e7e;left:20%;}
+	30% {background-color:#b7b1a5;left:30%;}
+	40%{background-color: #c1cbd7;left:40%;}
+	50%{background-color: #7a7281;left:50%;}
+	60% {background-color:#5b4646;left:60%;}
+	70%{background-color: #656565;left:70%;}
+	80%{background-color: #8696a7;left:80%;}
+	90% {background-color:#9ca8b8;left:90%;}
+	100%{background-color: #8696a7;left:100%;}
+}
+
+
+#anime{
+	width: 100px;
+	height: 100px;
+	background-color: #965454;
+	position: relative;
+	margin-bottom: 500px;
+
+	animation-name: color-move;
+	animation-duration: 7.5s;
+	animation-iteration-count:infinite;
+}

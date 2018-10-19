@@ -1,0 +1,23 @@
+body{
+	background-color: #A3BABB;
+	height: 1000px;
+}
+.trantran{
+	width: 100%;
+	height: 90px;
+	background-color: #997a1d;
+
+}
+
+
+h4{
+	color: #bcad7e;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#more {display: none;}
+
+p{
+	font-size: 13px;
+}
